@@ -33,3 +33,6 @@ router.patch(`/:id`, (req, res) => {
 router.delete(`/:id`, (req, res) => {
     res.send(`Cancellazione del post ${req.params.id}`)
 });
+
+// eseguo l'esportazione 
+module.exports = router;
