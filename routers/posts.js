@@ -23,3 +23,8 @@ router.post(`/`, (req, res) => {
 router.put(`/:id`, (req, res) => {
     res.send(`Modifica totale del post: ${req.params.id}`)
 });
+
+// modify
+router.patch(`/:id`, (req, res) => {
+    res.send(`Modifica parziale del post ${req.params.id}`)
+});
