@@ -13,3 +13,8 @@ router.get(`/`, (req, res) => {
 router.get(`/:id`, (req, res) => {
     res.send(`Dettaglio del post: ` + req.params.id)
 });
+
+// store
+router.post(`/`, (req, res) => {
+    res.send(`Inserimento del nuovo post`)
+});
